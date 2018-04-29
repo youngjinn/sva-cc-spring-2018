@@ -54,9 +54,9 @@ function draw() {
 
 function updateTime() {
   h = hour();
-  if (h > 12){
+  if (h > 24){
     ampm = "PM";
-    h = h - 12;
+    h = h - 24;
   } else {
     ampm = "AM";
   }
